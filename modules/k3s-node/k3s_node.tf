@@ -20,9 +20,6 @@ resource "aws_lightsail_instance" "k3s-node" {
   blueprint_id = "ubuntu_20_04"
   bundle_id    = var.node_bundle_id
 
-  provisioner "remote-exec" {
-     
-  }
 }
 
 resource "aws_lightsail_static_ip" "static-ip" {
