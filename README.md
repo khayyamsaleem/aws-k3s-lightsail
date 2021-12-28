@@ -1,4 +1,4 @@
-# AWS Lightsail K3S Cluster
+# AWS Lightsail k3s Cluster
 
 Terraform configuration for creating an k3s cluster with cheap nodes from AWS Lightsail.
 
